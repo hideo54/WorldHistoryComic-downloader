@@ -1,0 +1,24 @@
+{
+  "name": "worldhistorycomic-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hideo54/WorldHistoryComic-downloader.git"
+  },
+  "author": "hideo54",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hideo54/WorldHistoryComic-downloader/issues"
+  },
+  "homepage": "https://github.com/hideo54/WorldHistoryComic-downloader#readme",
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
