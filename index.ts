@@ -43,8 +43,8 @@ const downloadBookPageImages = async (bookPath: string) => {
         const base64 = (await axios.get(url)).data as string;
         const data = Buffer.from(base64.replace('data:image/jpeg;base64,', ''), 'base64');
         await fs.writeFile(`dist/${slug}/${i}.jpg`, data);
-        await sleep(0.5);
-        console.log(`Downloaded p. ${i} / ${pageData.contents.length}`);
+        await sleep(0.2);
+        console.log(`Downloaded p. ${i+1} / ${pageData.contents.length}`);
     }
 };
 
