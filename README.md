@@ -25,3 +25,5 @@ sh img2pdf.sh # 任意: 画像を PDF に変換
 ```
 
 `fs/promises` を使っているので、Node.js v14 以降が必要です。
+
+シェルスクリプトを実行する場合、ImageMagick が必要です。
